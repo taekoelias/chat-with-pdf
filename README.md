@@ -8,7 +8,7 @@ Projeto Python utilizando LangChain para construção de um chatbot a partir do 
 
 O projeto foi desenvolvido utilizando Python na versão 3.10.
 
-### LangChain[https://www.langchain.com/langchain]
+### [LangChain](https://www.langchain.com/langchain)
 
 LangChain é uma biblioteca que implementa um conjunto de ferramentas próprias para trabalhar com LLM's e inteligência artificial que aceleram o processo de criação ou integração com API's de empresas especializadas na área, como OpenAI e Hugging Face.
 
@@ -34,13 +34,13 @@ OBS.: As variaveis que estão no arquivo `.env.example` servem de base para cria
 
 Com o python instalado na maquina, basta executar:
 
-`pip install -r requirements.txt`
+> `pip install -r requirements.txt`
 
 Esse comando irá instalar todas as dependências necessárias para execução do projeto localmente. A instalação demora alguns minutos, seja paciente!
 
 Após instalação das dependências o projeto pode ser iniciado executando:
 
-`streamlit run app.py`
+> `streamlit run app.py`
 
 Será inicializado um servidor web que executa na porta 8501. Acesse atraves de http://localhost:8501.
 
@@ -50,10 +50,10 @@ O projeto possui as configurações necessárias para executá-lo no modo Dev Co
 
 Para criação do container é preciso executar:
 
-`docker-compose up -d`
+> `docker-compose up -d`
 
 Após a criação do container é possível acessá-lo a partir do comando:
 
-`docker-compose exec app bash`
+> `docker-compose exec app bash`
 
-Já dentro do container é possível executar os mesmos comandos da seção anterior[Modo tradicional] para instalar as dependências e executar a aplicação.
+Já dentro do container é possível executar os mesmos comandos da [seção anterior](Modo tradicional) para instalar as dependências e executar a aplicação.
