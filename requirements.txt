@@ -1,0 +1,12 @@
+streamlit
+pypdf2
+python-dotenv
+faiss-cpu
+langchain
+openai
+
+# uncomment to use huggingface llms
+#huggingface_hub
+# uncomment to use instructor embeddings
+#InstructorEmbedding
+#sentence_transformers==2.2.2
