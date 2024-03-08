@@ -56,4 +56,4 @@ Após a criação do container é possível acessá-lo a partir do comando:
 
 > `docker-compose exec app bash`
 
-Já dentro do container é possível executar os mesmos comandos da [seção anterior](Modo tradicional) para instalar as dependências e executar a aplicação.
+Já dentro do container é possível executar os mesmos comandos da [seção anterior](#modo-tradicional) para instalar as dependências e executar a aplicação.
